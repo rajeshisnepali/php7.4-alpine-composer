@@ -1,0 +1,14 @@
+.git
+.gitignore
+LICENSE
+VERSION
+README.md 
+Changelog.md 
+.editorconfig
+.git
+.gitignore
+.gitlab-ci.yml
+.idea
+gitlab-ci-pipeline-php.png
+.pre-commit-config.yaml
+Makefile
