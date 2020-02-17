@@ -9,6 +9,9 @@ MAINTAINER Rajesh Chaudhary <rajeshisnepali@gmail.com>
 # Set working directory
 WORKDIR /var/www
 
+#RUN echo "http://uk.alpinelinux.org/alpine/latest-stable/main" > /etc/apk/repositories
+#RUN echo "http://uk.alpinelinux.org/alpine/latest-stable/community" >> /etc/apk/repositories
+
 # Install dependencies
 RUN apk update && apk add --no-cache \
     bash \
